@@ -1,5 +1,9 @@
 Hi!
+
 I used Selenium IDE for firefox to run the tests.
+(I also used Katalon studio to run it on different browsers. 
+I can help you set it up if you wish as it is an awesome one click tool.)
+
 Please open the test cases if you wish to run them.
 Run them at the following order:
 1. Sanity1
