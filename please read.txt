@@ -7,6 +7,7 @@ Run them at the following order:
 3. Negative
 
 Note - Setting the test above medium speed could cause errors.
+Note - Some manual testing was performed (for example in the invalidate button)
 
 The lib folder contains the jar files for eclipse if you want to see the source.
 You may need to slow down the webdriver.
@@ -15,6 +16,6 @@ If you wish me to slow it down for you it could take time setting the delays so 
 Test protocols with pass and fails are in the test protocol folder.
 In the same folder you can find the issues report.
 
-thank ! 
+thanks ! 
 
 
