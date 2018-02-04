@@ -1,0 +1,20 @@
+Hi!
+I used Selenium IDE for firefox to run the tests.
+Please open the test cases if you wish to run them.
+Run them at the following order:
+1. Sanity1
+2. Functionality
+3. Negative
+
+Note - Setting the test above medium speed could cause errors.
+
+The lib folder contains the jar files for eclipse if you want to see the source.
+You may need to slow down the webdriver.
+If you wish me to slow it down for you it could take time setting the delays so I hope you are ok  with viewing them on the IDE :)
+
+Test protocols with pass and fails are in the test protocol folder.
+In the same folder you can find the issues report.
+
+thank ! 
+
+
