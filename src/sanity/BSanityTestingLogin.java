@@ -1,4 +1,4 @@
-package sanity ;
+package sanity;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -38,6 +38,19 @@ public class BSanityTestingLogin {
     driver.findElement(By.linkText("Did you forget your password?")).click();
     driver.findElement(By.cssSelector("span.glyphicon.glyphicon-user")).click();
     driver.findElement(By.cssSelector("li.ng-scope > a > span.ng-scope")).click();
+    driver.findElement(By.linkText("Did you forget your password?")).click();
+    driver.findElement(By.linkText("Account")).click();
+    driver.findElement(By.linkText("Authenticate")).click();
+    driver.findElement(By.linkText("Register a new account")).click();
+    driver.findElement(By.cssSelector("span.hidden-tablet.ng-scope")).click();
+    driver.findElement(By.cssSelector("li.ng-scope > a > span.ng-scope")).click();
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
+    driver.findElement(By.id("password")).clear();
+    driver.findElement(By.id("password")).sendKeys("90-9-0");
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
     driver.findElement(By.cssSelector("img[alt=\"Gurukula\"]")).click();
   }
 
@@ -59,7 +72,6 @@ public class BSanityTestingLogin {
     }
   }
 
-    
   private boolean isAlertPresent() {
     try {
       driver.switchTo().alert();
